@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="urs_solution" type="height_ctl.py" name="height_ctl" output="screen"/>
+    <node pkg="urs_solution" type="attitude_ctl.py" name="attitude_ctl" output="screen"/>
+    <node pkg="urs_solution" type="horizontal_ctl.py" name="horizontal_ctl" output="screen"/>
+
+</launch>

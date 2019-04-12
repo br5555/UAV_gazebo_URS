@@ -1,0 +1,15 @@
+<package>
+
+  <name>urs_ardrone_description</name>
+  <version>1.0.0</version>
+  <description>This package provides URDF model of the parrot ardrone vehicle.</description>
+
+  <maintainer email="tomislav.haus@gmail.com">Tomislav Haus</maintainer>
+
+  <author>Tomislav Haus</author>
+
+  <license>Other</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

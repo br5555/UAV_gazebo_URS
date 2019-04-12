@@ -1,0 +1,19 @@
+<launch>
+    <arg name="name" default="ardrone" />
+    <arg name="x" default="0.0" />
+    <arg name="y" default="0.0" />
+    <arg name="z" default="0.02" />
+    
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="paused" value="false" />
+        <arg name="use_sim_time" value="true"/>
+    </include>
+    
+    <include file="$(find urs_ardrone_description)/launch/spawn_ardrone.launch">
+        <arg name="name" value="$(arg name)" />
+        <arg name="x" value="$(arg x)"/>
+        <arg name="y" value="$(arg y)"/>
+        <arg name="z" value="$(arg z)"/>
+    </include>
+
+</launch>

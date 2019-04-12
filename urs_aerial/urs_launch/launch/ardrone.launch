@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+   
+    <node name="ardrone_driver" pkg="ardrone_autonomy" type="ardrone_driver" output="screen"/>
+  
+</launch>
+
